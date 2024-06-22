@@ -25,6 +25,10 @@ repositories {
 		name 'ModMenu'
 		url 'https://maven.terraformersmc.com/releases/'
 	}
+		maven {
+		name 'modrinth'
+		url 'https://api.modrinth.com/maven'
+	}
 }
 
 dependencies {
@@ -39,8 +43,8 @@ dependencies {
 	// ModMenu. I want to be able to do config things.
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
-	// SpruceUI. Used to make the ui.
-	include modImplementation("dev.lambdaurora:spruceui:${project.spruceui_version}")
+	// ObsidianUI. Used to make the ui.
+	include modImplementation("maven.modrinth:obsidianui:${project.obsidianui_version}-fabric")
 }
 
 processResources {

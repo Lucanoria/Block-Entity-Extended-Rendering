@@ -1,10 +1,10 @@
 package net.jimbot6000.blockentityextendedrendering.gui;
 
-import dev.lambdaurora.spruceui.Position;
-import dev.lambdaurora.spruceui.option.SpruceDoubleOption;
-import dev.lambdaurora.spruceui.screen.SpruceScreen;
-import dev.lambdaurora.spruceui.widget.SpruceButtonWidget;
-import dev.lambdaurora.spruceui.widget.container.SpruceOptionListWidget;
+import org.thinkingstudio.obsidianui.Position;
+import org.thinkingstudio.obsidianui.option.SpruceDoubleOption;
+import org.thinkingstudio.obsidianui.screen.SpruceScreen;
+import org.thinkingstudio.obsidianui.widget.SpruceButtonWidget;
+import org.thinkingstudio.obsidianui.widget.container.SpruceOptionListWidget;
 import net.jimbot6000.blockentityextendedrendering.BlockEntityExtendedRendering;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
