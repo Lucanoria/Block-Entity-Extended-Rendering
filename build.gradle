@@ -3,7 +3,6 @@ plugins {
 	id 'maven-publish'
 }
 
-
 archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
@@ -16,14 +15,10 @@ repositories {
 	// for more information about repositories.
 	mavenLocal()
 	maven {
-		name 'Gegy'
-		url 'https://maven.gegy.dev'
-	}
-	maven {
 		name 'ModMenu'
 		url 'https://maven.terraformersmc.com/releases/'
 	}
-		maven {
+	maven {
 		name 'modrinth'
 		url 'https://api.modrinth.com/maven'
 	}

@@ -13,8 +13,9 @@ import java.util.Properties;
 public interface RenderDistanceIncrease extends GetDistanceInterface {
 
 	/**
-	* Changes from a hard-coded 64 blocks to a configurable value.
-	* @author jimbot6000
+	 * Changes from a hard-coded 64 blocks to a configurable value.
+	 * @author jimbot6000
+	 * @reason come on, the original function is just "return 64". surely an overwrite is ok.
 	*/
 	@Overwrite
 	default int getRenderDistance() {
